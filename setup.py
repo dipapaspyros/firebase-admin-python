@@ -21,9 +21,6 @@ import sys
 from setuptools import find_packages
 from setuptools import setup
 
-import firebase_admin
-
-
 if sys.version_info < (2, 7):
     print('firebase_admin requires python2 version >= 2.7 or python3.', file=sys.stderr)
     sys.exit(1)
