@@ -40,7 +40,7 @@ extras_require = {
     ':python_version<"3.4"': ('enum34>=1.0.4',),
 }
 
-version = firebase_admin.__version__
+version = '2.8.0'
 
 setup(
     name='firebase_admin',
